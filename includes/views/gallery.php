@@ -1,6 +1,6 @@
 <?php
 /**
- * CVAR Core Embed Timeline View
+ * CVAR Gallery View
  *
  * @package    CVAR_Core
  * @subpackage CVAR_Core\Admin\Views
@@ -10,8 +10,10 @@
 ?>
 
 <?php
-$image = '';
+$ids = implode( ',', $image_ids );
+$options = 'ids="' . $ids . '"';
+$options .= ( $columns ) ? ' columns="' . $columns .  '"' : '';
+$options .= ( $size ) ? ' size="' . $size .  '"' : '';
 ?>
-<div class="image-gallery">
 
-</div>
+<?php echo do_shortcode( '[gallery ' . $options . ']' ) ?>
