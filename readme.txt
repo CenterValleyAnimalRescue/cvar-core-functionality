@@ -2,8 +2,8 @@
 Contributors: misfist
 Tags: custom post type, custom taxonomy, rest api
 Requires at least: 4.5
-Tested up to: 4.5.3
-Stable tag: 0.1.0
+Tested up to: 4.7.4
+Version: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,11 +26,8 @@ This section describes how to install the plugin and get it working.
 
 == Changelog ==
 
+= 0.1.1 - May 7, 2017 =
+Added filter to allow shortcodes in widget areas
+
 = 0.1.0 =
 Initial.
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.

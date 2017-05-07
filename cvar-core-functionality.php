@@ -10,7 +10,7 @@
  * Text Domain:     cvar-core
  * Domain Path:     /languages
  *
- * Version:         0.1.0
+ * Version:         0.1.1
  *
  * @package         Core_Functionality
  */
@@ -42,7 +42,7 @@ require_once( 'includes/class-cvar-core-shortcodes.php' );
  * @return object CVAR_Core
  */
 function CVAR_Core () {
-	$instance = CVAR_Core::instance( __FILE__, '0.1.0' );
+	$instance = CVAR_Core::instance( __FILE__, '0.1.1' );
 
 	return $instance;
 }

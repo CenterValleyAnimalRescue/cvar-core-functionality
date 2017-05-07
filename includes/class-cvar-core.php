@@ -113,6 +113,9 @@ class CVAR_Core {
 		$this->load_plugin_textdomain();
 		add_action( 'init', array( $this, 'load_localisation' ), 0 );
 
+		// Allow shortcodes in widget areas
+		add_filter( 'widget_text','do_shortcode' );
+
 		/**
 		 * Separate Media Categories from Post Categories
 		 * use a custom category called 'category_media' for the categories in the media library
