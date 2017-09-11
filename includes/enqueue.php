@@ -9,8 +9,8 @@
  */
 
  function cvar_core_enqueue_scripts() {
-   wp_register_script( 'petfinder-api', CVAR_CORE_DIR_URL . 'vendor/petfinder/dist/js/petfinderAPI4everybody.min.js', array(), null, true );
-   wp_register_script( 'petfinder-sort', CVAR_CORE_DIR_URL . 'vendor/petfinder/dist/js/petfinderSort.min.js', array(), null, true );
+   wp_register_script( 'petfinder-api', CVAR_CORE_DIR_URL . 'dist/lib/petfinder/dist/js/petfinderAPI4everybody.min.js', array(), null, true );
+   wp_register_script( 'petfinder-sort', CVAR_CORE_DIR_URL . 'dist/lib/petfinder/dist/js/petfinderSort.min.js', array(), null, true );
    wp_enqueue_script( 'petfinder-api' );
    wp_enqueue_script( 'petfinder-sort' );
  }
